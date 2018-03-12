@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4EAD2BA18CEA363CB89A3F7 /* libPods-SAMM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75EE4BEA10A89951D0DA07 /* libPods-SAMM.a */; };
+		EC26652A204EE99000F2A6A2 /* maps_style.json in Resources */ = {isa = PBXBuildFile; fileRef = EC266529204EE99000F2A6A2 /* maps_style.json */; };
+		EC80863F205030DB00FE7C71 /* DestinationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC80863E205030DB00FE7C71 /* DestinationModel.swift */; };
+		EC8086412055593100FE7C71 /* ic_ecoloopstop-web.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8086402055593100FE7C71 /* ic_ecoloopstop-web.png */; };
+		EC80864520555BD200FE7C71 /* e-loopsw.png in Resources */ = {isa = PBXBuildFile; fileRef = EC80864420555BD200FE7C71 /* e-loopsw.png */; };
+		EC9900412055957300FF822B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC9900402055957300FF822B /* GoogleService-Info.plist */; };
+		EC990043205595E700FF822B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC990042205595E600FF822B /* GoogleService-Info.plist */; };
+		EC99004520559BF200FF822B /* e-loop.png in Resources */ = {isa = PBXBuildFile; fileRef = EC99004420559BF200FF822B /* e-loop.png */; };
+		EC9900482055AFAF00FF822B /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9900472055AFAF00FF822B /* Int.swift */; };
+		EC99004A2055AFCB00FF822B /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9900492055AFCB00FF822B /* FloatingPoint.swift */; };
 		ECABF0A2204EE26F00C74B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABF0A1204EE26F00C74B66 /* AppDelegate.swift */; };
 		ECABF0A4204EE26F00C74B66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABF0A3204EE26F00C74B66 /* ViewController.swift */; };
 		ECABF0A7204EE26F00C74B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECABF0A5204EE26F00C74B66 /* Main.storyboard */; };
 		ECABF0A9204EE26F00C74B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECABF0A8204EE26F00C74B66 /* Assets.xcassets */; };
 		ECABF0AC204EE26F00C74B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECABF0AA204EE26F00C74B66 /* LaunchScreen.storyboard */; };
+		ECABF0B4204EE2AB00C74B66 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ECABF0B3204EE2AB00C74B66 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D462C3B276A16CDC590BB81 /* Pods-SAMM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMM.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAMM/Pods-SAMM.release.xcconfig"; sourceTree = "<group>"; };
+		7F75EE4BEA10A89951D0DA07 /* libPods-SAMM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAMM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E730C3F4E7C8EA2608A662 /* Pods-SAMM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAMM/Pods-SAMM.debug.xcconfig"; sourceTree = "<group>"; };
+		EC266529204EE99000F2A6A2 /* maps_style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maps_style.json; sourceTree = "<group>"; };
+		EC80863E205030DB00FE7C71 /* DestinationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationModel.swift; sourceTree = "<group>"; };
+		EC8086402055593100FE7C71 /* ic_ecoloopstop-web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ecoloopstop-web.png"; sourceTree = "<group>"; };
+		EC80864420555BD200FE7C71 /* e-loopsw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "e-loopsw.png"; sourceTree = "<group>"; };
+		EC9900402055957300FF822B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC990042205595E600FF822B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC99004420559BF200FF822B /* e-loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "e-loop.png"; sourceTree = "<group>"; };
+		EC9900472055AFAF00FF822B /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		EC9900492055AFCB00FF822B /* FloatingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPoint.swift; sourceTree = "<group>"; };
 		ECABF09E204EE26F00C74B66 /* SAMM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAMM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECABF0A1204EE26F00C74B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECABF0A3204EE26F00C74B66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,7 @@
 		ECABF0A8204EE26F00C74B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECABF0AB204EE26F00C74B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECABF0AD204EE26F00C74B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECABF0B3204EE2AB00C74B66 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EAD2BA18CEA363CB89A3F7 /* libPods-SAMM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10982E6EDC3D8C859CC82202 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E730C3F4E7C8EA2608A662 /* Pods-SAMM.debug.xcconfig */,
+				3D462C3B276A16CDC590BB81 /* Pods-SAMM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B627243B42092201E4632248 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F75EE4BEA10A89951D0DA07 /* libPods-SAMM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC80863D205030B900FE7C71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC80863E205030DB00FE7C71 /* DestinationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC9900462055AF9F00FF822B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC9900472055AFAF00FF822B /* Int.swift */,
+				EC9900492055AFCB00FF822B /* FloatingPoint.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		ECABF095204EE26F00C74B66 = {
 			isa = PBXGroup;
 			children = (
+				EC990042205595E600FF822B /* GoogleService-Info.plist */,
+				ECABF0B3204EE2AB00C74B66 /* Podfile */,
 				ECABF0A0204EE26F00C74B66 /* SAMM */,
 				ECABF09F204EE26F00C74B66 /* Products */,
+				10982E6EDC3D8C859CC82202 /* Pods */,
+				B627243B42092201E4632248 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +117,19 @@
 		ECABF0A0204EE26F00C74B66 /* SAMM */ = {
 			isa = PBXGroup;
 			children = (
+				EC9900462055AF9F00FF822B /* Extensions */,
+				EC99004420559BF200FF822B /* e-loop.png */,
+				EC9900402055957300FF822B /* GoogleService-Info.plist */,
+				EC80864420555BD200FE7C71 /* e-loopsw.png */,
+				EC8086402055593100FE7C71 /* ic_ecoloopstop-web.png */,
+				EC80863D205030B900FE7C71 /* Models */,
 				ECABF0A1204EE26F00C74B66 /* AppDelegate.swift */,
 				ECABF0A3204EE26F00C74B66 /* ViewController.swift */,
 				ECABF0A5204EE26F00C74B66 /* Main.storyboard */,
 				ECABF0A8204EE26F00C74B66 /* Assets.xcassets */,
 				ECABF0AA204EE26F00C74B66 /* LaunchScreen.storyboard */,
 				ECABF0AD204EE26F00C74B66 /* Info.plist */,
+				EC266529204EE99000F2A6A2 /* maps_style.json */,
 			);
 			path = SAMM;
 			sourceTree = "<group>";
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECABF0B0204EE26F00C74B66 /* Build configuration list for PBXNativeTarget "SAMM" */;
 			buildPhases = (
+				59959A046228ADD9E3A6AE3F /* [CP] Check Pods Manifest.lock */,
 				ECABF09A204EE26F00C74B66 /* Sources */,
 				ECABF09B204EE26F00C74B66 /* Frameworks */,
 				ECABF09C204EE26F00C74B66 /* Resources */,
+				4C0CCA2453DA293375C28FA6 /* [CP] Embed Pods Frameworks */,
+				FE306567638EBCE4A3D14A32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +196,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8086412055593100FE7C71 /* ic_ecoloopstop-web.png in Resources */,
+				EC9900412055957300FF822B /* GoogleService-Info.plist in Resources */,
+				EC990043205595E700FF822B /* GoogleService-Info.plist in Resources */,
+				EC80864520555BD200FE7C71 /* e-loopsw.png in Resources */,
 				ECABF0AC204EE26F00C74B66 /* LaunchScreen.storyboard in Resources */,
 				ECABF0A9204EE26F00C74B66 /* Assets.xcassets in Resources */,
+				ECABF0B4204EE2AB00C74B66 /* Podfile in Resources */,
 				ECABF0A7204EE26F00C74B66 /* Main.storyboard in Resources */,
+				EC26652A204EE99000F2A6A2 /* maps_style.json in Resources */,
+				EC99004520559BF200FF822B /* e-loop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C0CCA2453DA293375C28FA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAMM/Pods-SAMM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59959A046228ADD9E3A6AE3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAMM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE306567638EBCE4A3D14A32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SAMM/Pods-SAMM-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAMM/Pods-SAMM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECABF09A204EE26F00C74B66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC99004A2055AFCB00FF822B /* FloatingPoint.swift in Sources */,
 				ECABF0A4204EE26F00C74B66 /* ViewController.swift in Sources */,
 				ECABF0A2204EE26F00C74B66 /* AppDelegate.swift in Sources */,
+				EC80863F205030DB00FE7C71 /* DestinationModel.swift in Sources */,
+				EC9900482055AFAF00FF822B /* Int.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +411,11 @@
 		};
 		ECABF0B1204EE26F00C74B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E730C3F4E7C8EA2608A662 /* Pods-SAMM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JH8XD5587A;
 				INFOPLIST_FILE = SAMM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eleazerarcilla.SAMM;
@@ -286,9 +427,11 @@
 		};
 		ECABF0B2204EE26F00C74B66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D462C3B276A16CDC590BB81 /* Pods-SAMM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JH8XD5587A;
 				INFOPLIST_FILE = SAMM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eleazerarcilla.SAMM;
